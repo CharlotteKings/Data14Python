@@ -21,3 +21,4 @@ while not age.isnumeric():
         print("That is not a number, try again")
 
 print(f"You are {age}")
+print(type(age))
