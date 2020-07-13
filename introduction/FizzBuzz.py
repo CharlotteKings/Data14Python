@@ -8,5 +8,4 @@ while counter < 100:
     elif counter % 5 ==0:
         print('Buzz')
     else:
-        print(counter
-              
+        print(counter)
