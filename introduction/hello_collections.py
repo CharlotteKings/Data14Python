@@ -3,7 +3,13 @@
 shopping_list = ['eggs', 'bread', 'cheese', 'sausages']
 #print(type(shopping_list))
 #print(shopping_list[3])
+index = [1,2,3]
+def update():
+    for i in index:
+        shopping_list[i] = "HOT"
+    print(shopping_list)
 
+update()
 #shopping_list.append('mushrooms')   # add something
 #shopping_list.remove('cheese')      # remove something
 
@@ -40,22 +46,22 @@ shopping_list = ['eggs', 'bread', 'cheese', 'sausages']
 # print(bigger_dictionary.keys())     #list all keys
 # print(bigger_dictionary.values())     #list all values
 
-data14_dictionary = {
-    'Trainer' : 'David',
-    'Number of participants' : 11,
-    'Name of participant' : ['Charlotte', 'Jade' ],
-}
-
-print(data14_dictionary['Name of participant'][0])      # return specific value in a KVP list
-
-#SETS - lists with no order
-
-car_parts = {'wheels', 'battery', 'doors'}
-car_parts.add('pedals')     # add to set
-car_parts.discard('wheels')         # delete from set
-print(car_parts)
-
-#FROZEN SET
-
-fs = frozenset([1,2,3,4])
-print(fs)
+# data14_dictionary = {
+#     'Trainer' : 'David',
+#     'Number of participants' : 11,
+#     'Name of participant' : ['Charlotte', 'Jade' ],
+# }
+#
+# print(data14_dictionary['Name of participant'][0])      # return specific value in a KVP list
+#
+# #SETS - lists with no order
+#
+# car_parts = {'wheels', 'battery', 'doors'}
+# car_parts.add('pedals')     # add to set
+# car_parts.discard('wheels')         # delete from set
+# print(car_parts)
+#
+# #FROZEN SET
+#
+# fs = frozenset([1,2,3,4])
+# print(fs)

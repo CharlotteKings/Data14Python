@@ -8,10 +8,10 @@ import random as rn # Import whole random package as alias
 
 from car_class import *  # Import all from car class file
 
-from hangman_words import word_list
-from random import choice
+#from hangman_words import word_list
+#from random import choice
 
-print(choice(word_list))
+#print(choice(word_list))
 
 # class that handles the 'brain' of hangman
     # knows the word to guess
@@ -19,5 +19,7 @@ print(choice(word_list))
 
 # class that runs the game side, i.e keeping score
     # handle game logic, get guesses off player, keeping score
-    
+
 # third file to loads them in and read them
+word = "game"
+word.find("a")

@@ -1,0 +1,5 @@
+'ABBA'
+'CADA'
+'GAGA'
+'LADA'
+'HAYA'
