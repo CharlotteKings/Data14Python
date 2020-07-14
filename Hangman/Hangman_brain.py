@@ -29,3 +29,17 @@ class Brain:
                 indicies.append(counter)  #  Notes index of correct letter
             counter += 1  # Checks next index in word
         return indicies
+
+
+    def play_again(self):
+        play_again = input("Would you like to play again? Y(Yes) or N(No) \n")
+        while play_again != "Y" or play_again != "N":
+            play_again = input("Please put Y or N \n").upper()
+            if play_again == "Y":
+                print("Ffi")
+            elif play_again == "N":
+                quit(Game)
+
+#
+# new_game = Brain()
+# new_game.play_again()
