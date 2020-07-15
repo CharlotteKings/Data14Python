@@ -66,8 +66,8 @@ class Game:
             quit()
 
 
-new_guess = Game()
-print(new_guess.word)
+# new_guess = Game()
+# print(new_guess.word)
 
 
 
