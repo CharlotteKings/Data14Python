@@ -1,0 +1,1 @@
+print(f"the name of my NAME_AND_MAIN file is {__name__}")  # Retruns main

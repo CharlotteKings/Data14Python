@@ -21,11 +21,11 @@ class Scrabble:
             list_word = list(self.word)
             for i in self.word:
                 if list_word == list(filter(lambda  x: x in self.random_letters,list_word)):
-                    print(f"Good word! That gives you a score of {self.score_calculator()}!")
+                    print(f"Good word!")
                     break
                 else:
                     self.word = input("Sorry! You can't use that word. Please use the letters given \n").upper()
-            return True
+        return True
 
 
 
@@ -40,9 +40,9 @@ class Scrabble:
         return len(self.random_letters)
 
 
-    def score_calculator(self):
+    def score_calculator(self,word):
         word_score = []
-        for i in self.word:
+        for i in word:
             self.letter_score(i)
             word_score.append(self.letter_score(i))
         calculator = sum(word_score)
@@ -68,6 +68,7 @@ class Scrabble:
     #     return True
 
 new_game = Scrabble()
-new_game.generate_letters()
-new_game.get_word()
+# new_game.generate_letters()
+# new_game.get_word()
+#print(new_game.score_calculator())
 
